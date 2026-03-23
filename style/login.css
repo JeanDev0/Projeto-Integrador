@@ -28,7 +28,8 @@ input {
     border: 1px black solid;
     border-radius: 10px;
     width: 200px;
-    height: 25px;
+    height: 17px;
+    padding: 5px;
 }
 
 .formulario {
