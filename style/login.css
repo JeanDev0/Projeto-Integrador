@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/img/Fundo\ Login.png);
+    background-image: url(../img/Fundo\ Login.png);
     background-size: cover;
     display: flex;
     justify-content: center;
