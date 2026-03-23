@@ -10,17 +10,22 @@
 <body>
     <section id="cardlogin">
         <img id="iconepec" src="img/Logo 1 PNG.png" alt="Icone do PEC">
-        <div class="formulario">
-            <div>    
-                <label for="login">Login:</label>
-                <input type="text" id="login" name="login">
+        <form action="/login.php" method="post">
+            <div class="formulario">
+                <div>    
+                    <label for="login">Login:</label>
+                    <input type="text" id="login" name="login">
+                </div>
+                <div>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button>Entrar</button>
+                <div id="reset">
+                    <a href="">Esqueci minha senha</a>
+                </div>
             </div>
-            <div>
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password">
-            </div>
-            <button>Entrar</button>
-        </div>
+        </form>
     </section>
 </body>
 </html>
