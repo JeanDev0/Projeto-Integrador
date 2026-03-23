@@ -1,0 +1,57 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/Fundo\ Login.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#iconepec {
+    width: 400px;
+    display: block;
+    margin: 0 auto;    
+}
+
+#cardlogin {
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+input {
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+}
+
+.formulario {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgba(90, 207, 90, 0.911);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    background-color: rgba(70, 180, 70, 0.95);
+}
